@@ -1,0 +1,9 @@
+<svg width="520" height="520" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Retrato temporal</title>
+  <desc id="desc">Imagen temporal para reemplazar con una fotografia o ilustracion profesional.</desc>
+  <rect width="520" height="520" rx="8" fill="#D6ECE9"/>
+  <path d="M0 382C76 332 132 326 210 352C302 383 374 363 520 282V520H0V382Z" fill="#0F766E"/>
+  <circle cx="260" cy="206" r="78" fill="#FFFFFF"/>
+  <path d="M129 430C143 351 194 302 260 302C326 302 377 351 391 430H129Z" fill="#FFFFFF"/>
+  <path d="M184 119C214 80 283 66 331 95C372 120 396 168 386 219C376 271 326 299 265 293C199 286 157 248 153 193C151 165 163 143 184 119Z" fill="#1D2528" fill-opacity="0.18"/>
+</svg>
