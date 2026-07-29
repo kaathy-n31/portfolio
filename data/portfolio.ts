@@ -38,7 +38,7 @@ export const profile = {
   bio:
     "Desarrolladora Front-End especializada en la creación de aplicaciones web modernas y escalables utilizando React, JavaScript y tecnologías del ecosistema web. Cuento con experiencia en el desarrollo de interfaces dinámicas, optimización de la experiencia de usuario, integración con APIs y mantenimiento de aplicaciones en entornos productivos. 🚀 Manejo herramientas y tecnologías como HTML5, CSS3, Sass, Tailwind CSS, Git, Vitest y React Testing Library, aplicando buenas prácticas de desarrollo, testing, depuración y control de versiones para garantizar código limpio, mantenible y de alta calidad. 📚 Apasionada por el aprendizaje continuo, me mantengo actualizada con las últimas tendencias y tecnologías del desarrollo web para seguir aportando soluciones innovadoras y eficientes. 🤝 Busco formar parte de equipos donde pueda contribuir con mi experiencia, asumir nuevos retos y continuar creciendo profesionalmente mientras genero impacto a través de la tecnología.",
   links: {
-    linkedin: "https://www.linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/katherine-negrete-07b65b240/",
     github: "https://github.com/",
   },
 };
@@ -149,28 +149,103 @@ export const projects = [
 
 export const certificates = [
   {
-    title: "Certificado Front-End",
-    issuer: "Nombre de la institucion",
-    date: "2026",
+    title: "Introduction to HTML5",
+    issuer: "Coursera",
+    date: "2022",
     description:
-      "Espacio para agregar el certificado, la plataforma donde lo obtuviste y las habilidades principales.",
-    url: "#",
+      "Bases de HTML semantico para estructurar paginas web accesibles y bien organizadas.",
+    url: "https://www.coursera.org/account/accomplishments/verify/NP4AMAFV3LXE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
   },
   {
-    title: "Certificado React",
-    issuer: "Nombre de la institucion",
-    date: "2026",
-    description:
-      "Espacio para destacar conocimientos en componentes, hooks, estado, consumo de APIs y buenas practicas.",
-    url: "#",
+    title: "Introduction to CSS3",
+    issuer: "Coursera",
+    date: "2022",
+    description: "Fundamentos de estilos, selectores, modelo de caja y diseno visual con CSS.",
+    url: "https://www.coursera.org/account/accomplishments/verify/LAJKVHPMLVFY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
   },
   {
-    title: "Certificado Web",
-    issuer: "Nombre de la institucion",
-    date: "2026",
-    description:
-      "Espacio para documentar cursos, bootcamps, diplomados o certificaciones profesionales.",
-    url: "#",
+    title: "Responsive Design",
+    issuer: "Coursera",
+    date: "2022",
+    description: "Practicas para crear interfaces adaptables a distintos tamanos de pantalla.",
+    url: "https://www.coursera.org/account/accomplishments/verify/HQEN6SLXFFWE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+  },
+  {
+    title: "Introduction to JavaScript",
+    issuer: "Coursera",
+    date: "2022",
+    description: "Conceptos iniciales de programacion web interactiva usando JavaScript.",
+    url: "https://www.coursera.org/account/accomplishments/verify/M5VPPRTG3SRK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+  },
+  {
+    title: "ReactJs + TypeScript + NextJs",
+    issuer: "Udemy",
+    date: "2023",
+    description: "Desarrollo de aplicaciones modernas con React, tipado con TypeScript y rutas en Next.js.",
+    url: "https://www.udemy.com/certificate/UC-52db33ad-74d2-4b35-87fa-8c9e754fa006/",
+  },
+  {
+    title: "Google Analytics",
+    issuer: "Udemy",
+    date: "2023",
+    description: "Configuracion y lectura de metricas para analizar comportamiento de usuarios en sitios web.",
+    url: "https://drive.google.com/file/d/1wbr-jGfmRwL9Q89u-03qyZ56wPzUxgiR/view",
+  },
+  {
+    title: "Google Tag Mannager",
+    issuer: "Udemy",
+    date: "2023",
+    description: "Implementacion de etiquetas y eventos para medicion digital sin cambios directos en codigo.",
+    url: "https://drive.google.com/file/d/1VIWeCbc7LoUrq1ohsQa8UosKEfqQlmU4/view",
+  },
+  {
+    title: "VTEX IO",
+    issuer: "VTEX TECH",
+    date: "2023",
+    description: "Fundamentos de desarrollo y personalizacion de experiencias ecommerce en VTEX IO.",
+    url: "https://drive.google.com/file/d/1E_e5zUTIpu7Sq7PftNyjbhG03ih6YYUV/view",
+  },
+  {
+    title: "Cybersecurity Training",
+    issuer: "Delta Protect",
+    date: "2024",
+    description: "Buenas practicas de seguridad digital, prevencion de riesgos y proteccion de informacion.",
+    url: "https://drive.google.com/file/d/1ZwFacSlJ-t6WP_8j_O3KuuAXlW0zzTT-/view",
+  },
+  {
+    title: "APIs con .NET",
+    issuer: "Platzi",
+    date: "2025",
+    description: "Creacion de APIs con .NET, manejo de endpoints y estructura de servicios backend.",
+    url: "https://drive.google.com/file/d/11jZ0LP9Bj87WB_Z9HfejIipL56_vRM0f/view?usp=sharing",
+  },
+  {
+    title: "Diseño para programadores",
+    issuer: "Platzi",
+    date: "2025",
+    description: "Principios de diseno visual aplicados a interfaces claras, consistentes y funcionales.",
+    url: "https://drive.google.com/file/d/16cmXURo0YqrxXW_J-wu_k3WGfKZqONoM/view?usp=sharing",
+  },
+  {
+    title: "Fundamentos de Entity Framework",
+    issuer: "Platzi",
+    date: "2025",
+    description: "Uso de Entity Framework para modelar datos y trabajar con persistencia en .NET.",
+    url: "https://drive.google.com/file/d/1uyH7tBY5tpiKrmgP3Lcd9C0xI__PncaC/view?usp=sharing",
+  },
+  {
+    title: "Fundamentos de .NET",
+    issuer: "Platzi",
+    date: "2025",
+    description: "Bases del ecosistema .NET, estructura de proyectos y desarrollo con C#.",
+    url: "https://drive.google.com/file/d/1B7_s1Vj_TFDXS6Ds6NPCa1P8TJhQbVQp/view?usp=sharing",
+  },
+  {
+    title: "Introducción a React Native",
+    issuer: "Platzi",
+    date: "2025",
+    description: "Primer acercamiento al desarrollo de aplicaciones moviles con componentes React Native.",
+    url: "https://drive.google.com/file/d/1bgpZL1pwGTtfQqlVBFJ0FyKEZ6yszLzN/view?usp=sharing",
   },
 ];
 

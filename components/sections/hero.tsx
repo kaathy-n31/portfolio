@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { profile } from "@/data/portfolio";
 
 export function Hero() {
@@ -24,6 +23,38 @@ export function Hero() {
           </div>
         </div>
 
+        <div className="hero__visual" aria-hidden="true">
+          <div className="hero-illustration">
+            <div className="hero-illustration__window">
+              <div className="hero-illustration__toolbar">
+                <span />
+                <span />
+                <span />
+              </div>
+              <div className="hero-illustration__code">
+                <span className="hero-illustration__line hero-illustration__line--wide" />
+                <span className="hero-illustration__line" />
+                <span className="hero-illustration__line hero-illustration__line--short" />
+                <span className="hero-illustration__line hero-illustration__line--medium" />
+              </div>
+              <div className="hero-illustration__preview">
+                <span />
+                <span />
+                <span />
+              </div>
+            </div>
+
+            <div className="hero-illustration__badge hero-illustration__badge--react">
+              React
+            </div>
+            <div className="hero-illustration__badge hero-illustration__badge--ui">
+              UI
+            </div>
+            <div className="hero-illustration__badge hero-illustration__badge--next">
+              Next.js
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
