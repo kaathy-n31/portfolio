@@ -78,7 +78,7 @@ const translations = {
       title: "Conectemos para crear experiencias web.",
       description:
         "Estoy disponible para colaborar en proyectos front-end, productos digitales y equipos que busquen interfaces claras, modernas y mantenibles.",
-      email: "Enviar correo",
+      cv: "Ver CV",
     },
     about: {
       eyebrow: "Sobre mi",
@@ -152,7 +152,7 @@ const translations = {
       title: "Let's build web experiences together.",
       description:
         "I am available to collaborate on front-end projects, digital products, and teams looking for clear, modern, and maintainable interfaces.",
-      email: "Send email",
+      cv: "View resume",
     },
     about: {
       eyebrow: "About",

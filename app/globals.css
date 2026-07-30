@@ -248,6 +248,12 @@ img {
   color: var(--accent-strong);
 }
 
+.site-header__toggles {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
 .site-header__menu-button {
   display: none;
   width: 44px;
@@ -1170,11 +1176,17 @@ img {
   }
 
   .site-header__nav > a,
-  .site-header__nav > .button,
-  .site-header__nav > .theme-toggle,
-  .site-header__nav > .language-toggle {
+  .site-header__nav > .button {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .site-header__toggles {
+    width: 100%;
+    margin-top: auto;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 20px;
   }
 
   .site-header__nav > a:not(.button) {

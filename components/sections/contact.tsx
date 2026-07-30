@@ -4,6 +4,8 @@ import { useLanguage } from "@/components/providers/language-provider";
 import { SectionTitle } from "@/components/ui/section-title";
 import { profile } from "@/data/portfolio";
 
+const cvPath = "/cv.pdf";
+
 export function Contact() {
   const { t } = useLanguage();
 
@@ -16,8 +18,8 @@ export function Contact() {
           description={t.contact.description}
         />
         <div className="contact__actions">
-          <a className="button" href={`mailto:${profile.email}`}>
-            {t.contact.email}
+          <a className="button" href={cvPath} download>
+            {t.contact.cv}
           </a>
           <a className="button button--ghost" href={profile.links.linkedin}>
             LinkedIn

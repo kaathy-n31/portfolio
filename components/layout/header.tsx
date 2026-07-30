@@ -62,8 +62,10 @@ export function Header() {
             <FaGithub size={25} className="iconsRedes"/> 
             GitHub
           </a>
-          <ThemeToggle />
-          <LanguageToggle />
+          <div className="site-header__toggles">
+            <ThemeToggle />
+            <LanguageToggle />
+          </div>
         </nav>
       </div>
     </header>
