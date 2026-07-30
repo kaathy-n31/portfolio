@@ -1,24 +1,31 @@
+"use client";
+
+import { useLanguage } from "@/components/providers/language-provider";
 import { profile } from "@/data/portfolio";
 
 export function Hero() {
+  const { language, t } = useLanguage();
+
   return (
     <section className="hero" id="inicio">
       <div className="container hero__grid">
         <div className="hero__content">
-          <p className="hero_title_name">Hi! I'm {profile.name}</p>
+          <p className="hero_title_name">
+            {t.hero.greeting} {profile.name}
+          </p>
           
           <h1 className="hero__title">
-            <span className="hero__title-line">Front End</span>
-            <span className="hero__title-line">Developer</span>
+            <span className="hero__title-line">{t.hero.titleTop}</span>
+            <span className="hero__title-line">{t.hero.titleBottom}</span>
           </h1>
           {/* <h1>{profile.name}</h1> */}
-          <p className="hero__intro">{profile.summary}</p>
+          <p className="hero__intro">{profile.summary[language]}</p>
           <div className="hero__actions">
             <a className="button" href="#proyectos">
-              Ver proyectos
+              {t.hero.primaryAction}
             </a>
             <a className="button button--ghost" href="#contacto">
-              Contacto
+              {t.hero.secondaryAction}
             </a>
           </div>
         </div>

@@ -1,22 +1,27 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/components/providers/language-provider";
 import { SectionTitle } from "@/components/ui/section-title";
 import { experience } from "@/data/portfolio";
 
 export function Experience() {
+  const { language, t } = useLanguage();
+
   return (
     <section className="section experience-section" id="experiencia">
       <div className="container">
         <SectionTitle
-          eyebrow="Experiencia"
-          title="Linea de tiempo simple para la trayectoria."
-          description="Estructura inicial para ordenar roles, organizaciones y responsabilidades relevantes."
+          eyebrow={t.experience.eyebrow}
+          title={t.experience.title}
+          description={t.experience.description}
         />
 
         <div className="experience-timeline">
           {experience.map((item) => (
             <article
               className="experience-timeline__item"
-              key={`${item.period}-${item.role}`}
+              key={`${item.period.en}-${item.role.en}`}
             >
               <div className="experience-timeline__period">
                 <time>{item.year}</time>
@@ -30,7 +35,7 @@ export function Experience() {
                     <div className="experience-timeline__logo">
                       <Image
                         src={item.image}
-                        alt={`Logotipo de ${item.company}`}
+                        alt={`${t.experience.logoAlt} ${item.company}`}
                         width={80}
                         height={80}
                       />
@@ -42,13 +47,15 @@ export function Experience() {
                       <h4 className="logo-text">
                         {item.company}
                       </h4>
-                      <h3 className="experience-timeline__role">{item.role}</h3>
-                      <p className="experience-timeline__location">{item.location}</p>
-                      <p className="experience-timeline__at">{item.period}</p>
+                      <h3 className="experience-timeline__role">
+                        {item.role[language]}
+                      </h3>
+                      <p className="experience-timeline__location">{item.location[language]}</p>
+                      <p className="experience-timeline__at">{item.period[language]}</p>
                     </header>
 
                     <p className="experience-timeline__description">
-                      {item.description}
+                      {item.description[language]}
                     </p>
 
                     {item.technologies?.length > 0 && (

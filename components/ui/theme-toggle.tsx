@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
+import { useLanguage } from "@/components/providers/language-provider";
 
 type Theme = "light" | "dark";
 
@@ -26,6 +27,7 @@ function getInitialTheme(): Theme {
 export function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>("light");
   const isDark = theme === "dark";
+  const { t } = useLanguage();
 
   useEffect(() => {
     setTheme(getInitialTheme());
@@ -40,7 +42,7 @@ export function ThemeToggle() {
     <button
       className="theme-toggle"
       type="button"
-      aria-label={isDark ? "Activar modo claro" : "Activar modo oscuro"}
+      aria-label={isDark ? t.theme.light : t.theme.dark}
       aria-pressed={isDark}
       role="switch"
       aria-checked={isDark}

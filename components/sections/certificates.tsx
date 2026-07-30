@@ -3,11 +3,13 @@
 import { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
+import { localize, useLanguage } from "@/components/providers/language-provider";
 import { SectionTitle } from "@/components/ui/section-title";
 import { certificates } from "@/data/portfolio";
 
 export function Certificates() {
   const carouselRef = useRef<HTMLDivElement>(null);
+  const { language, t } = useLanguage();
 
   function scrollCertificates(direction: "left" | "right") {
     const carousel = carouselRef.current;
@@ -31,16 +33,16 @@ export function Certificates() {
     <section className="section certificates-section" id="certificados">
       <div className="container">
         <SectionTitle
-          eyebrow="Certificados"
-          title="Formacion y aprendizaje continuo."
-          description="Un espacio para mostrar tus certificaciones, cursos y logros profesionales mas relevantes."
+          eyebrow={t.certificates.eyebrow}
+          title={t.certificates.title}
+          description={t.certificates.description}
         />
 
         <div className="certificates-carousel">
           <button
             className="certificates-carousel__button certificates-carousel__button--prev"
             type="button"
-            aria-label="Ver certificados anteriores"
+            aria-label={t.certificates.previous}
             onClick={() => scrollCertificates("left")}
           >
             <FaChevronLeft size={16} />
@@ -49,25 +51,28 @@ export function Certificates() {
           <div
             className="certificates-grid"
             ref={carouselRef}
-            aria-label="Carrusel de certificados"
+            aria-label={t.certificates.carousel}
           >
             {certificates.map((certificate) => (
-              <article className="card certificate-card" key={certificate.title}>
+              <article
+                className="card certificate-card"
+                key={localize(certificate.title, language)}
+              >
                 <div className="certificate-card__icon" aria-hidden="true">
                   <span />
                 </div>
 
                 <div className="certificate-card__content">
                   <p className="certificate-card__date">{certificate.date}</p>
-                  <h3>{certificate.title}</h3>
+                  <h3>{localize(certificate.title, language)}</h3>
                   <p className="certificate-card__issuer">{certificate.issuer}</p>
                   <p className="certificate-card__description">
-                    {certificate.description}
+                    {localize(certificate.description, language)}
                   </p>
                 </div>
 
                 <a className="certificate-card__link" href={certificate.url}>
-                  Ver certificado
+                  {t.certificates.link}
                 </a>
               </article>
             ))}
@@ -76,7 +81,7 @@ export function Certificates() {
           <button
             className="certificates-carousel__button certificates-carousel__button--next"
             type="button"
-            aria-label="Ver mas certificados"
+            aria-label={t.certificates.next}
             onClick={() => scrollCertificates("right")}
           >
             <FaChevronRight size={16} />

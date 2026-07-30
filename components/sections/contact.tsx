@@ -1,18 +1,23 @@
+"use client";
+
+import { useLanguage } from "@/components/providers/language-provider";
 import { SectionTitle } from "@/components/ui/section-title";
 import { profile } from "@/data/portfolio";
 
 export function Contact() {
+  const { t } = useLanguage();
+
   return (
     <section className="section contact" id="contacto">
       <div className="container contact__inner">
         <SectionTitle
-          eyebrow="Contacto"
-          title="Espacio listo para conectar."
-          description="Reemplaza estos datos con correo, redes profesionales y una llamada a la accion mas especifica."
+          eyebrow={t.contact.eyebrow}
+          title={t.contact.title}
+          description={t.contact.description}
         />
         <div className="contact__actions">
           <a className="button" href={`mailto:${profile.email}`}>
-            Enviar correo
+            {t.contact.email}
           </a>
           <a className="button button--ghost" href={profile.links.linkedin}>
             LinkedIn
