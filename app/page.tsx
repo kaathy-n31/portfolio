@@ -1,4 +1,5 @@
 import { About } from "@/components/sections/about";
+import { AiRecruiterChat } from "@/app/components/AiRecruiterChat";
 import { Contact } from "@/components/sections/contact";
 import { Certificates } from "@/components/sections/certificates";
 import { Experience } from "@/components/sections/experience";
@@ -19,6 +20,7 @@ export default function Home() {
         <Projects />
         <Certificates />
         <Experience />
+        <AiRecruiterChat />
         <Contact />
       </main>
       <Footer />
