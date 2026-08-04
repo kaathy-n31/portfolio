@@ -26,7 +26,7 @@ Sitio: https://drsecurity.net/
 Periodo: Octubre 2022 - Marzo 2024.
 Rol: Front-End Developer.
 Ubicacion: Ciudad de Mexico, Mexico.
-Descripcion: Desarrolladora Frontend con experiencia en plataformas de comercio electronico, creando interfaces responsivas y componentes reutilizables con React.js, Next.js, TypeScript y JavaScript. Participo en el ciclo completo de desarrollo, integracion de APIs, despliegues, mantenimiento, documentacion tecnica y revisiones de codigo, colaborando con equipos de diseno y backend.
+Descripcion: Desarrolladora Frontend con experiencia en plataformas de comercio electronico, creando interfaces responsivas y componentes reutilizables con React.js, Next.js, TypeScript y JavaScript. Participo en el ciclo completo de desarrollo, integracion de APIs, despliegues, mantenimiento, documentacion tecnica y revisiones de codigo, colaborando con equipos de diseño y backend.
 Tecnologias: React, JavaScript, VTEX-IO, Contentful, CSS, Tailwind y Sass.
 Sitio: https://www.vinneren.com/
 
@@ -48,20 +48,20 @@ Sitio: https://genial-labs.com/
 
 Proyectos:
 1. Puertas Automaticas SR.
-Descripcion: Creacion de sitio web para una empresa de puertas automaticas, incluyendo diseno, desarrollo y optimizacion de la experiencia de usuario.
+Descripcion: Creacion de sitio web para una empresa de puertas automaticas, incluyendo diseño, desarrollo y optimizacion de la experiencia de usuario.
 URL: https://puertasautomaticasjesr.com/
 
 2. Swimwear Store.
-Descripcion: Proyecto de tienda en linea para la venta de trajes de bano, con funcionalidades de carrito de compras, pasarela de pago y gestion de inventario.
+Descripcion: Proyecto de tienda en linea para la venta de trajes de baño, con funcionalidades de carrito de compras, pasarela de pago y gestion de inventario.
 URL: no especificada en el portafolio.
 
 3. Libreria en Linea.
-Descripcion: Desarrollo de una plataforma para la venta de libros en linea, con catalogo de productos, sistema de busqueda y filtrado, y opciones de pago seguro.
+Descripcion: Desarrollo de una plataforma para la venta de libros en linea, con catalogo de productos y opciones de pago seguro.
 URL: https://katherine-na.github.io/gallery-project/
 
 Certificaciones:
 - Introduction to HTML5, Coursera, 2022. Bases de HTML semantico para estructurar paginas web accesibles y bien organizadas.
-- Introduction to CSS3, Coursera, 2022. Fundamentos de estilos, selectores, modelo de caja y diseno visual con CSS.
+- Introduction to CSS3, Coursera, 2022. Fundamentos de estilos, selectores, modelo de caja y diseño visual con CSS.
 - Responsive Design, Coursera, 2022. Practicas para crear interfaces adaptables a distintos tamanos de pantalla.
 - Introduction to JavaScript, Coursera, 2022. Conceptos iniciales de programacion web interactiva usando JavaScript.
 - ReactJs + TypeScript + NextJs, Udemy, 2023. Desarrollo de aplicaciones modernas con React, tipado con TypeScript y rutas en Next.js.
@@ -70,7 +70,7 @@ Certificaciones:
 - VTEX IO, VTEX TECH, 2023. Fundamentos de desarrollo y personalizacion de experiencias ecommerce en VTEX IO.
 - Cybersecurity Training, Delta Protect, 2024. Buenas practicas de seguridad digital, prevencion de riesgos y proteccion de informacion.
 - APIs con .NET, Platzi, 2025. Creacion de APIs con .NET, manejo de endpoints y estructura de servicios backend.
-- Diseno para programadores, Platzi, 2025. Principios de diseno visual aplicados a interfaces claras, consistentes y funcionales.
+- Diseno para programadores, Platzi, 2025. Principios de diseño visual aplicados a interfaces claras, consistentes y funcionales.
 - Fundamentos de Entity Framework, Platzi, 2025. Uso de Entity Framework para modelar datos y trabajar con persistencia en .NET.
 - Fundamentos de .NET, Platzi, 2025. Bases del ecosistema .NET, estructura de proyectos y desarrollo con C#.
 - Introduccion a React Native, Platzi, 2025. Primer acercamiento al desarrollo de aplicaciones moviles con componentes React Native.

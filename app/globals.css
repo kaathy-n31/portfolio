@@ -785,6 +785,16 @@ img {
   gap: 12px;
 }
 
+.contact__actions .button {
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .contact__actions {
+    padding-right: 92px;
+  }
+}
+
 .footer {
   border-top: 1px solid var(--line);
   padding: 28px 0;
@@ -1558,6 +1568,7 @@ img {
   margin-block: 10px;
   width: 100%;
   object-fit: cover;
+  height: 200px;
 }
 
 .project_title {
@@ -1569,6 +1580,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 
 .project-button {
@@ -1740,6 +1752,8 @@ img {
 .KNA {
   border-radius: 50%;
   object-fit: cover;
+  width: 50px;
+  height: 50px;
 }
 
 .iconsRedes {

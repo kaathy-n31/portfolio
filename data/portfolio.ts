@@ -85,7 +85,7 @@ export const projects = [
       en: "Automatic Doors SR",
     },
     description: {
-      es: "Creacion de sitio web para una empresa de puertas automaticas, incluyendo diseno, desarrollo y optimizacion de la experiencia de usuario.",
+      es: "Creacion de sitio web para una empresa de puertas automaticas, incluyendo diseño, desarrollo y optimizacion de la experiencia de usuario.",
       en: "Website creation for an automatic doors company, including design, development, and user experience optimization.",
     },
     image: projectPuertas,
@@ -97,7 +97,7 @@ export const projects = [
       en: "Swimwear Store",
     },
     description: {
-      es: "Proyecto de tienda en linea para la venta de trajes de bano, con funcionalidades de carrito de compras, pasarela de pago y gestion de inventario.",
+      es: "Proyecto de tienda en linea para la venta de trajes de baño, con funcionalidades de carrito de compras, pasarela de pago y gestion de inventario.",
       en: "Online store project for swimwear sales, with shopping cart, payment gateway, and inventory management features.",
     },
     image: projectSwimwear,
@@ -109,7 +109,7 @@ export const projects = [
       en: "Online Bookstore",
     },
     description: {
-      es: "Desarrollo de una plataforma para la venta de libros en linea, con catalogo de productos, sistema de busqueda y filtrado, y opciones de pago seguro.",
+      es: "Desarrollo de una plataforma para la venta de libros en linea, con catalogo de productos y opciones de pago seguro.",
       en: "Development of a platform for online book sales, with a product catalog, search and filtering system, and secure payment options.",
     },
     image: projectLibreria,
@@ -133,7 +133,7 @@ export const certificates = [
     issuer: "Coursera",
     date: "2022",
     description: {
-      es: "Fundamentos de estilos, selectores, modelo de caja y diseno visual con CSS.",
+      es: "Fundamentos de estilos, selectores, modelo de caja y diseño visual con CSS.",
       en: "Foundations of styles, selectors, the box model, and visual design with CSS.",
     },
     url: "https://www.coursera.org/account/accomplishments/verify/LAJKVHPMLVFY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
@@ -226,7 +226,7 @@ export const certificates = [
     issuer: "Platzi",
     date: "2025",
     description: {
-      es: "Principios de diseno visual aplicados a interfaces claras, consistentes y funcionales.",
+      es: "Principios de diseño visual aplicados a interfaces claras, consistentes y funcionales.",
       en: "Visual design principles applied to clear, consistent, and functional interfaces.",
     },
     url: "https://drive.google.com/file/d/16cmXURo0YqrxXW_J-wu_k3WGfKZqONoM/view?usp=sharing",
@@ -301,7 +301,7 @@ export const experience = [
     },
     company: "Vinneren Consulting",
     description: {
-      es: "Desarrolladora Frontend con experiencia en plataformas de comercio electronico, creando interfaces responsivas y componentes reutilizables con React.js, Next.js, TypeScript y JavaScript. Participe en el ciclo completo de desarrollo, integracion de APIs, despliegues, mantenimiento, documentacion tecnica y revisiones de codigo, colaborando con equipos de diseno y backend.",
+      es: "Desarrolladora Frontend con experiencia en plataformas de comercio electronico, creando interfaces responsivas y componentes reutilizables con React.js, Next.js, TypeScript y JavaScript. Participe en el ciclo completo de desarrollo, integracion de APIs, despliegues, mantenimiento, documentacion tecnica y revisiones de codigo, colaborando con equipos de diseño y backend.",
       en: "Frontend developer with ecommerce platform experience, creating responsive interfaces and reusable components with React.js, Next.js, TypeScript, and JavaScript. I participated in the full development cycle, API integrations, deployments, maintenance, technical documentation, and code reviews while collaborating with design and backend teams.",
     },
     image: VinnerenLogo,
